@@ -1,0 +1,67 @@
+/* AboutUs.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Space on the left and right */
+  }
+  
+  .about-us {
+    max-width: 1200px; /* Optional, to control the max width of your content */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left; /* For a better look in the card content */
+  }
+  
+  .card h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .card ul li strong {
+    font-weight: bold;
+  }
+  
+  .card a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  

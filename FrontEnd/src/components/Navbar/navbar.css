@@ -1,0 +1,90 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #292b2c;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.offcanvas {
+  background-color: #212529;
+  color: white;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.offcanvas-body {
+  padding: 1rem 2rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  
+  color: #5bc0de;
+}
+
+.nav-link.active {
+  background-color: #5bc0de;
+  color: #292b2c;
+}
+
+.btn-close-white {
+  filter: invert(1);
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .offcanvas-body {
+    padding: 1rem;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

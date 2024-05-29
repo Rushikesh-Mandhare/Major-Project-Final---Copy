@@ -1,0 +1,85 @@
+.content {
+    padding: 50px;
+}
+
+.working-heading {
+    color: white;
+    text-align: center;
+}
+
+.roadmap,
+.cnn-model {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.roadmap h2,
+.cnn-model h2 {
+    color: #292b2c;
+}
+
+.roadmap p,
+.cnn-model p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.roadmap-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.roadmap-step {
+    width: calc(20% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #555;
+    box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+}
+
+.step-number {
+    display: block;
+    background-color: #5bc0de;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.cnn-components {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cnn-component {
+    width: calc(30% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #555;
+    box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+}
+
+  .youtube-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .youtube-video iframe {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

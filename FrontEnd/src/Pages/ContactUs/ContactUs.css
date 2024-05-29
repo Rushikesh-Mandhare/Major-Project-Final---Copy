@@ -1,0 +1,89 @@
+/* ContactUs.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Space on the left and right */
+  }
+  
+  .contact-body {
+    max-width: 800px; /* Control the max width of your content */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .outer-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .inner-box {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+  }
+  
+  .signup-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .signup-body label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .signup-body input,
+  .signup-body textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .signup-body button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .signup-body button:hover {
+    background-color: #0056b3;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #007BFF;
+    opacity: 0.1;
+    z-index: 1;
+  }
+  
+  
